@@ -1,7 +1,8 @@
 // Built by LucyBot. www.lucybot.com
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 url += '?' + $.param({
-    'api-key': "06d790ea2ab541d99f22eb13b7732cf9"
+    'api-key': "06d790ea2ab541d99f22eb13b7732cf9", 
+    'q': "value"
 });
 $.ajax({
     url: url,
